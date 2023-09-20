@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-carousel {
+  display: flex;
+  height: 100vh;
+}
+
+
+.sectionn {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  transition: flex 0.4s ease;
+  position: relative;
+}
+.sextionn h1 {
+  align-items: center;
+}
+
+.sectionn .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: background-color 0.8s ease;
+}
+
+.sectionn .contentt {
+  z-index: 2;
+  align-items: center;
+}
+
+.sectionn:hover {
+  flex: 2;
+}
+
+.sectionn:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#sobrenos {
+  background-image: url(https://img.freepik.com/vetores-gratis/modelo-fita-restaurante-marca_23-2147491621.jpg?w=740&t=st=1694434906~exp=1694435506~hmac=64704090a1734313fff0ed0d7b1314bd078cd3d3fdfb99e7de20345aea61d1a2);
+}
+
+#galeria {
+  background-image: url(https://img.freepik.com/fotos-premium/entrando-em-territorios-de-sabor-sabor-mash-up-restaurante_823696-2522.jpg?w=740);
+}
+
+#cardapio {
+  background-image: url(https://img.freepik.com/fotos-gratis/lasanha-italiana-servida-com-salada-de-rucula_141793-1787.jpg?w=360&t=st=1694434702~exp=1694435302~hmac=216b3c09141ddbf24393b5991b7abf6bfa852d6a72da4688face27bdb0c5e9ea);
+}
